@@ -437,7 +437,7 @@ mem[A] <- dataStack.pop(); A <- A + 1
 ```
 .data
 hi:            .byte '--'
-alligment:	   .word '################################'
+alignment:	   .word '################################'
 input_addr:    .word 0x80
 output_addr:   .word 0x84
 
