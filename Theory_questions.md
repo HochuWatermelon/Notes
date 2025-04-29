@@ -42,7 +42,7 @@
 ![image](https://github.com/user-attachments/assets/7797acfa-80fa-44e4-8a48-a1fd88a4d0f7)
 
 В yaml config (simulation_config поле в отчете wrench) в разделе view (между slice и assert) прописываем регистры, состояния которых мы хотим видеть, с припиской hex.
-На примере ниже вывели stack в шестнадцатиричном формате.
+На примере ниже вывели stack в шестнадцатиричном формате. Slice: all позволяет отслеживать состояние регистров после каждой комнады.
 
 ![image](https://github.com/user-attachments/assets/5bd92413-b3af-45ed-ac6b-0a07196c6c17)
 
