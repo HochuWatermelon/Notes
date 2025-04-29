@@ -61,6 +61,7 @@
 
 Прописываем в yaml config:
 ```
+slice: all
 view: |
       {pc}:	{instruction}	{pc:label} Acc: {Acc:hex}
 ```
