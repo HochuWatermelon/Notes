@@ -214,11 +214,11 @@ rd <- pc + 4, pc <- pc + k
 
 Пример использования:
 ```
-    jal r0, some_work
+    jal ra, some_work
     halt
     some_work:
 	addi t1, t1, 5
-	jr   r0
+	jr   ra
 
 ```
 
